@@ -74,3 +74,59 @@ print(z.strip())
 #Replace string
 z = "el cofre esta cerrado"
 print(z.replace("t", "m"))
+#Merge variable y with variable x into variable b
+y = "rwanda"
+x = "sexy"
+b = y + x
+print(b)
+#To add space between them add "quotations"
+b = y + " " + x
+print(b)
+#concatenate strings with integers
+age = 36
+txt = "my name is camila, and i am {}"
+print(txt.format(age))
+quantity = 999
+itemno = 786
+price = 2
+myorder = "i want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price))
+
+myorder = "i want {2} pieces of item {0} for {1} dollars."
+print(myorder.format(quantity, itemno, price))
+#boolean
+print(14 < 7)
+print(128 > 32)
+print(44 == 88)
+
+#print a message based on whether the condition is false or true
+y = 200
+z = 33
+if z > y:
+    print("z is more than y")
+else:
+    print("y is more than z")
+#evaluate a string and a number
+print(bool("sony"))
+print(bool(17))
+print(bool(0))
+print(bool())
+
+#python operators
+y = 99
+z = 33
+#addition
+q = y + z
+print(q)
+#subtraction
+q = y - z
+print(q)
+#multiplication
+q = y * z
+print(q)
+#modulus
+q = y % z
+print(q)
+#create a list
+thislist = ["quesadilla", "carrefour", "walmart"]
+print(thislist)
