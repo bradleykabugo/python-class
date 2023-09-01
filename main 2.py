@@ -128,5 +128,62 @@ print(q)
 q = y % z
 print(q)
 #create a list
-thislist = ["quesadilla", "carrefour", "walmart"]
+thislist = ["landwind", "carrefour", "walmart"]
 print(thislist)
+
+#Print the second item on the list
+thislist = ["volvo", "peugeot", "fiat", "citroen", "bmw", "audi", "landwind", "renault"]
+print(thislist[1])
+#negative indexing
+print(thislist[-1])
+#range of indexes
+print(thislist[2:5])
+#range of negative indexes
+print(thislist[-6:-1])
+#check if item exists
+if "landwind" in thislist:
+    print("yes, 'landwind' is in the cars list")
+#change item value
+thislist[3] = "jeep"
+print(thislist)
+#change a range of item values
+thislist[1:3] = ["JVC", "sony"]
+print(thislist)
+#insert items
+thislist.insert(2, "sazgar")
+print(thislist)
+#append list
+thislist.append("subaru")
+print(thislist)
+#extend list
+thislist2 = ["zendaya", "hulu"]
+thislist.extend(thislist2)
+print(thislist)
+#remove list item
+thislist.remove("volvo")
+print(thislist)
+#remove specified index
+thislist.pop(9)
+print(thislist)
+#tuples
+thistuple = ("netflix", "peacock", "hulu", "HBO")
+print(thistuple)
+#tuple length
+print(len(thistuple))
+#access tuple items
+print(thistuple[1])
+#negative indexing
+print(thistuple[-1])
+#index rangee
+print(thistuple[2:4])
+#negative rangee
+print(thistuple[-4:-1])
+#update tuple
+ql = ("megastar", "europafm", "los40", "melodia")
+ch = list(ql)
+ch[3] = "cidc"
+ql = tuple(ch)
+print(ql)
+#python sets
+thisset = {"nike", "adadias", "vans"}
+print(thisset)
