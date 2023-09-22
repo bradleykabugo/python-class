@@ -150,7 +150,7 @@ print(thislist)
 thislist[1:3] = ["JVC", "sony"]
 print(thislist)
 #insert items
-thislist.insert(2, "sazgar")
+thislist.insert(2, "windows 11")
 print(thislist)
 #append list
 thislist.append("subaru")
@@ -160,7 +160,7 @@ thislist2 = ["zendaya", "hulu"]
 thislist.extend(thislist2)
 print(thislist)
 #remove list item
-thislist.remove("volvo")
+thislist.remove("landwind")
 print(thislist)
 #remove specified index
 thislist.pop(9)
@@ -187,3 +187,43 @@ print(ql)
 #python sets
 thisset = {"nike", "adadias", "vans"}
 print(thisset)
+#while LOOP
+i = 1
+while i < 6:
+    print(i)
+    i+= 1
+#break statement
+i = 1
+while i < 6:
+    print(i)
+    if i == 3:
+        break
+    i+= 1
+#continue statement
+i = 0
+while i < 6:
+    i+= 1
+    if i == 3:
+        continue
+    print(i)
+#for loops
+tv = ["samsung", "hisense", "LG", "philips"]
+for x in tv:
+    print(x)
+for x in "samsung":
+    print(x)
+#nested loops
+adj = ["china", "russia", "syria", "netflix"]
+amplifiers = ["bose", "JBL", "harman/kardon", "pioneer"]
+for x in adj:
+    for y in amplifiers:
+        print(x,y)
+#pass statement
+for x in [0,1,2]:
+    pass
+#python functions
+def my_function():
+    print("hello from a function")
+    for x in "samsung":
+        print(x)
+my_function()
